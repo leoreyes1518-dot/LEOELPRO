@@ -1,0 +1,36 @@
+/* estilo para todo el documento*/
+body{
+    font-family: "trebuchet MS";
+}
+/*estilo para el titulo del documento*/
+p¨{
+    margin: 80px;
+    text-align: justify;
+}
+/*estilo para todas las columnas del articulo*/
+#column1{
+    margin: 2px;
+    float: left;width: 300px;
+    background: RED;
+    text-align: center;
+    border: 2px;
+}
+#column2{
+    margin: 2px;
+    float: right;width: 300px;
+    background: blue;
+    text-align: center;
+    border: 2px;
+}
+column3{
+    margin: 50px;
+    float: center;width: 800px;
+    background: black;
+    text-align: center;
+    border: 2px;
+    }
+
+/*Estilo para defenir el ancho y alto de una imagen*/
+#Imagen¨{
+    width: 100px;
+}
