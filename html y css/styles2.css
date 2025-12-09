@@ -1,0 +1,114 @@
+/* General */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0c1221;
+    color: #e5ecf5;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #111a33;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.5);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.badge {
+    background: linear-gradient(135deg, #ff4b4b, #ff9966);
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 22px;
+}
+
+nav a {
+    color: #b8c7e0;
+    text-decoration: none;
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #fff;
+}
+
+/* Panels */
+.panel {
+    background: rgba(255,255,255,0.05);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+/* Teams */
+.teams {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 10px;
+}
+
+.team-card {
+    background: rgba(255,255,255,0.06);
+    padding: 12px;
+    border-radius: 8px;
+    text-align: center;
+    transition: 0.2s;
+}
+
+.team-card:hover {
+    background: rgba(255,255,255,0.15);
+}
+
+.team-badge {
+    background: rgba(255,255,255,0.2);
+    padding: 10px;
+    border-radius: 6px;
+    display: inline-block;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+/* Matches */
+.match {
+    display: flex;
+    justify-content: space-between;
+    background: rgba(255,255,255,0.08);
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.date {
+    color: #ff9966;
+    font-weight: bold;
+}
+
+/* Tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 12px;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+th {
+    background: rgba(255,255,255,0.06);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    color: #8fa3c4;
+}
